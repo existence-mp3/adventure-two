@@ -1,4 +1,4 @@
-package org.existence.adventurelib.currency;
+package org.existence.adventure.utils.economy.currency;
 
 /**
  * Framework class for defining types of coins within the game

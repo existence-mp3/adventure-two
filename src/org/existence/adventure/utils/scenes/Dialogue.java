@@ -1,4 +1,4 @@
-package org.existence.adventurelib.scenes;
+package org.existence.adventure.utils.scenes;
 
 /**
  * Framework class for defining dialogue that can be executed in a scene

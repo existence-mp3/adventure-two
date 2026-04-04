@@ -1,4 +1,4 @@
-package org.existence.adventurelib.items;
+package org.existence.adventure.utils.items;
 
 /**
  * Framework class for defining items that can be possessed by a Creature
