@@ -1,5 +1,7 @@
 package org.existence.adventure.utils.items;
 
+import org.existence.adventure.utils.economy.currency.Cost;
+
 /**
  * Framework class for defining items that can be possessed by a Creature
  */
@@ -16,7 +18,7 @@ public class Item {
     /**
      * Price to buy the item in a shop
      */
-    public final int price;
+    public final Cost price;
     /**
      * Damage dealt by the item in combat
      */
@@ -30,11 +32,27 @@ public class Item {
      * @param price  Price to buy the item in a shop
      * @param damage Base damage dealt by the item in combat
      */
-    public Item(String id, String name, int price, double damage) {
+    public Item(String id, String name, Cost price, double damage) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.damage = damage;
+    }
+
+    public String getID() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Cost getPrice() {
+        return price;
+    }
+
+    public double getDamage() {
+        return damage;
     }
 
 }

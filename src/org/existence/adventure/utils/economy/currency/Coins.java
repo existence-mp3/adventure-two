@@ -78,7 +78,7 @@ public class Coins {
     }
 
     /**
-     * @return Type of coin that the object represents a group of
+     * @return Type of coin that the object represents
      */
     public Coin getType() {
         return type;
